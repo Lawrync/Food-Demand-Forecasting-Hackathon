@@ -9,7 +9,11 @@ Management of perishable raw materials and employees within the fulfilment centr
 
 ## Objective
 To make a reasonable prediction of the quantity of orders per week in each meal-centre combination in the upcoming ten weeks (Weeks 146 through 155).
+
 To utilise the historical demand data, meal attributes, and fulfilment centre data to develop a predictive model that is reliable.
+
 To ensure the effective acquisition of perishable raw materials by anticipating demand before it is too late.
+
 To plan staffing at fulfilment centres with workforce planning and the desired order volume.
+
 To minimise wastage and ensure improved efficiency in operations and delivery of products to customers on time
