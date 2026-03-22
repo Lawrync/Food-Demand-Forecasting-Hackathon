@@ -1,3 +1,5 @@
+![WhatsApp Image 2026-03-22 at 21 31 04](https://github.com/user-attachments/assets/0c2ac22d-c3e1-4478-ba53-e10ab15eae18)
+
 ## Food-Demand-Forecasting-Hackathon
 ## Overview
 
