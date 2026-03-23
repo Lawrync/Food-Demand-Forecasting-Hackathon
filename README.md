@@ -21,13 +21,19 @@ To plan staffing at fulfilment centres with workforce planning and the desired o
 To minimise wastage and ensure improved efficiency in operations and delivery of products to customers on time
 
 ## Data Analysis
+# What is the distribution of weekly demand (num_orders)?
 <img width="975" height="516" alt="image" src="https://github.com/user-attachments/assets/025cb02f-7d1c-491d-b317-1575caf59d2c" />
 <img width="975" height="582" alt="image" src="https://github.com/user-attachments/assets/49480cc1-b805-473a-85b6-bc63f905ae6e" />
 
 The pattern of distribution and boxplot of weekly demand (num_orders) indicates a highly skewed right distribution, such that most of the cases are drawn to the low value, with a few cases yielding very high orders. The small value of the compressed interquartile range and a large number of outliers support the fact that the common demand is low and stable, and, at times, the spikes are large contributors to the total distribution. This imbalance implies that several combinations of meal centres contribute to the excessive proportion of demand.
 
+# How are meals distributed across categories or cuisines?
 
 <img width="975" height="501" alt="image" src="https://github.com/user-attachments/assets/7770475c-2ae1-4bed-b45d-43bd6d8ac28e" />
 
-Meal distribution is very skewed, with Beverages taking the lead with approximately 127,000 orders, many times higher than all other groups and may be a result of being bundled together or included with other items also. The rest of the categories (Rice Bowl, Sandwich, Pizza, Starters, etc.) are a comparatively balanced range of mid-tier (between 26,000-34,000) demand, and several categories, such as Fish and Soup, are low-demand products. This skewness indicates that a few categories contribute to a disproportionate volume, which is consistent with the Pareto Principle, and it is necessary to avoid combining the dominant categories, such as Beverages, to prevent the distortion of analysis and forecasting models.
+Meal distribution is very skewed, with Beverages taking the lead with approximately 127,000 orders, many times higher than all other groups and may be a result of being bundled together or included with other items also. The rest of the categories (Rice Bowl, Sandwich, Pizza, Starters, etc.) are a comparatively balanced range of mid-tier (between 26,000-34,000) demand, and several categories, such as Fish and Soup, are low-demand products.
+<img width="975" height="492" alt="image" src="https://github.com/user-attachments/assets/53ea9329-c3c8-4da1-8d15-78ab70e2ad88" />
+
+The cuisine distribution is notably balanced across all four types, with Italian, Thai, Indian, and Continental each contributing roughly 23–27% of total orders and no extreme outliers. This near-uniform spread suggests a well-structured and diversified menu where demand is evenly distributed, unlike the skewed category distribution. While Italian leads slightly, likely due to popular items like pizza and pasta, and Continental trails marginally, the differences are not significant enough to create an imbalance. This even distribution reduces modelling bias and supports building reliable forecasts across cuisines, while still aligning with broader demand patterns such as the Pareto Principle at a more granular category level rather than cuisine level.
+
 
